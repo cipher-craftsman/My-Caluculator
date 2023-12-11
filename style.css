@@ -13,6 +13,33 @@ body {
   text-align: right;
   padding-right: 20px;
   width: 100%;
-  
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+.calculator {
+  box-shadow: 0 0 16px rgba(red, green, blue, alpha);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "toggle toggle toggle toggle"
+  "display display display display"
+  "c signed percent divide"
+  "seven eight nine times"
+  "four five six minus"
+  "one two three plus"
+  "zero zero decimal equals";
+  align-items: center;
+  justify-items: center;
+  grid-row-gap: 25px;
+  border-radius: 20px;
+  padding: 50px 40px 40px 40px;
+}
+:root {
+  --body-bg-color: #e0e5ec;
+  --bg-color: #e0e5ec;
+  --primary-font-color: rgba(144,152,168,1);
+  --secondary-font-color: rgba(51,54,89,1);
+  --sort-high-light: rgba(255,255,255,43);
+  --dark-high-light: rgba(217,210,200,51);
 
 }
